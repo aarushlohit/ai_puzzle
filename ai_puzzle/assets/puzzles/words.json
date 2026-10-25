@@ -1,0 +1,68 @@
+[
+  {
+    "id": "word_01",
+    "category": "words",
+    "title": "Anagram Master",
+    "description": "Rearrange the letters 'SILENT' to form another English word meaning to pay attention to sound.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Rearrange the letters 'SILENT' to form another English word meaning to pay attention to sound.",
+      "target_name": "LISTEN"
+    },
+    "valid_answers": [
+      "listen"
+    ],
+    "hint_ladder": {
+      "gentle": "Look at the letter arrangements and word symmetries.",
+      "guided": "The answer contains 6 letters.",
+      "strong": "Starts with 'L' and ends with 'N'.",
+      "full_solution": "LISTEN"
+    },
+    "explanation": "LISTEN is an exact anagram of SILENT.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "word_02",
+    "category": "words",
+    "title": "Word Ladder: COLD to WARM",
+    "description": "Transform COLD into WARM in 4 steps (change 1 letter per step: COLD -> CORD -> CARD -> WARD -> WARM). What is the 3rd word in this ladder?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "Transform COLD into WARM in 4 steps (change 1 letter per step: COLD -> CORD -> CARD -> WARD -> WARM). What is the 3rd word in this ladder?",
+      "target_name": "CARD"
+    },
+    "valid_answers": [
+      "card"
+    ],
+    "hint_ladder": {
+      "gentle": "Look at the letter arrangements and word symmetries.",
+      "guided": "The answer contains 4 letters.",
+      "strong": "Starts with 'C' and ends with 'D'.",
+      "full_solution": "CARD"
+    },
+    "explanation": "Legal English words sequence: COLD (start) -> CORD -> CARD -> WARD -> WARM (goal).",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "word_03",
+    "category": "words",
+    "title": "Palindrome Riddle",
+    "description": "What 7-letter palindromic word describes a rotational speed detector in aircraft and racing cars?",
+    "difficulty": "hard",
+    "puzzle_data": {
+      "question": "What 7-letter palindromic word describes a rotational speed detector in aircraft and racing cars?",
+      "target_name": "ROTATOR"
+    },
+    "valid_answers": [
+      "rotator"
+    ],
+    "hint_ladder": {
+      "gentle": "Look at the letter arrangements and word symmetries.",
+      "guided": "The answer contains 7 letters.",
+      "strong": "Starts with 'R' and ends with 'R'.",
+      "full_solution": "ROTATOR"
+    },
+    "explanation": "R-O-T-A-T-O-R is spelled identically forward and backward.",
+    "estimated_seconds": 45
+  }
+]

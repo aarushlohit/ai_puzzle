@@ -1,0 +1,69 @@
+[
+  {
+    "id": "log_01",
+    "category": "logic",
+    "title": "Knights and Knaves",
+    "description": "Person A says: 'Both of us are Knaves (liars)'. Can Person A be a Knight (truth-teller)? Answer Yes or No.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Person A says: 'Both of us are Knaves (liars)'. Can Person A be a Knight (truth-teller)? Answer Yes or No.",
+      "target_name": "No"
+    },
+    "valid_answers": [
+      "no"
+    ],
+    "hint_ladder": {
+      "gentle": "Break the propositions down into truth tables or case deductions.",
+      "guided": "Eliminate cases where a participant would have made an earlier contradiction.",
+      "strong": "The deduction directly leads to: 'No'.",
+      "full_solution": "No"
+    },
+    "explanation": "If A were a Knight, their statement would be true, meaning A is a knave\u2014a contradiction. Hence A is a Knave telling a false compound statement.",
+    "estimated_seconds": 90
+  },
+  {
+    "id": "log_02",
+    "category": "logic",
+    "title": "Three Boxes",
+    "description": "You have three boxes: [Apples], [Oranges], [Apples and Oranges]. Every box is labeled incorrectly. You draw one fruit from the box labeled [Apples and Oranges] and it is an Apple. What does the box labeled [Oranges] contain?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "You have three boxes: [Apples], [Oranges], [Apples and Oranges]. Every box is labeled incorrectly. You draw one fruit from the box labeled [Apples and Oranges] and it is an Apple. What does the box labeled [Oranges] contain?",
+      "target_name": "Apples and Oranges"
+    },
+    "valid_answers": [
+      "apples and oranges",
+      "both"
+    ],
+    "hint_ladder": {
+      "gentle": "Break the propositions down into truth tables or case deductions.",
+      "guided": "Eliminate cases where a participant would have made an earlier contradiction.",
+      "strong": "The deduction directly leads to: 'Apples and Oranges'.",
+      "full_solution": "Apples and Oranges"
+    },
+    "explanation": "Since all labels are incorrect, the [Apples and Oranges] box must be purely Apples. The box labeled [Apples] cannot be Apples, so it must be Oranges. Thus the box labeled [Oranges] must be Apples and Oranges.",
+    "estimated_seconds": 90
+  },
+  {
+    "id": "log_03",
+    "category": "logic",
+    "title": "The Island of Foreheads",
+    "description": "Three logicians sit in a circle, each wearing a red or blue hat. Each sees the other two hats but not their own. They are told at least one hat is red. All three say 'I do not know my hat color' on round 1. In round 2, all announce their hat color. What color are all three hats?",
+    "difficulty": "hard",
+    "puzzle_data": {
+      "question": "Three logicians sit in a circle, each wearing a red or blue hat. Each sees the other two hats but not their own. They are told at least one hat is red. All three say 'I do not know my hat color' on round 1. In round 2, all announce their hat color. What color are all three hats?",
+      "target_name": "Red"
+    },
+    "valid_answers": [
+      "red"
+    ],
+    "hint_ladder": {
+      "gentle": "Break the propositions down into truth tables or case deductions.",
+      "guided": "Eliminate cases where a participant would have made an earlier contradiction.",
+      "strong": "The deduction directly leads to: 'Red'.",
+      "full_solution": "Red"
+    },
+    "explanation": "If there were 1 red hat, that person would deduce immediately on round 1. If 2 red hats, both would deduce on round 2. Because all 3 hesitated on round 1 and solved on round 2, all 3 must be wearing Red hats.",
+    "estimated_seconds": 90
+  }
+]

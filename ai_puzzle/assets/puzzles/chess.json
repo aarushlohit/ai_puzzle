@@ -1,0 +1,71 @@
+[
+  {
+    "id": "chess_01",
+    "category": "chess",
+    "title": "Back Rank Mate",
+    "description": "White has Queen on d8, Black King on g8 with pawns on f7, g7, h7. Black King cannot move. White Queen delivers: 'Qxd8#'. What tactical motif is this?",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "White has Queen on d8, Black King on g8 with pawns on f7, g7, h7. Black King cannot move. White Queen delivers: 'Qxd8#'. What tactical motif is this?",
+      "target_name": "Back Rank Mate"
+    },
+    "valid_answers": [
+      "back rank mate",
+      "back rank"
+    ],
+    "hint_ladder": {
+      "gentle": "Think of recognized tactical attacking motifs in classical chess theory.",
+      "guided": "The term describes the geometric trap or historical sacrificial name.",
+      "strong": "The tactical term begins with 'B'.",
+      "full_solution": "Back Rank Mate"
+    },
+    "explanation": "The back rank mate occurs when a king is trapped behind a shield of friendly pawns with no escape square.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "chess_02",
+    "category": "chess",
+    "title": "Smothered Mate Pattern",
+    "description": "White Knight moves to f7, checking the Black King surrounded by friendly pieces with no open flight squares. What is this mate called?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "White Knight moves to f7, checking the Black King surrounded by friendly pieces with no open flight squares. What is this mate called?",
+      "target_name": "Smothered Mate"
+    },
+    "valid_answers": [
+      "smothered mate",
+      "smothered"
+    ],
+    "hint_ladder": {
+      "gentle": "Think of recognized tactical attacking motifs in classical chess theory.",
+      "guided": "The term describes the geometric trap or historical sacrificial name.",
+      "strong": "The tactical term begins with 'S'.",
+      "full_solution": "Smothered Mate"
+    },
+    "explanation": "A smothered mate occurs when a knight attacks an enemy king that is unable to escape because all adjacent squares are occupied by its own friendly pieces.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "chess_03",
+    "category": "chess",
+    "title": "The Greek Gift Sacrifice",
+    "description": "White sacrifices a Bishop on h7 (Bxh7+) followed by Ng5+ and Qh5 to launch a decisive attack against the castled black king. What is the traditional name of this sacrificial motif?",
+    "difficulty": "hard",
+    "puzzle_data": {
+      "question": "White sacrifices a Bishop on h7 (Bxh7+) followed by Ng5+ and Qh5 to launch a decisive attack against the castled black king. What is the traditional name of this sacrificial motif?",
+      "target_name": "Greek Gift Sacrifice"
+    },
+    "valid_answers": [
+      "greek gift",
+      "greek gift sacrifice"
+    ],
+    "hint_ladder": {
+      "gentle": "Think of recognized tactical attacking motifs in classical chess theory.",
+      "guided": "The term describes the geometric trap or historical sacrificial name.",
+      "strong": "The tactical term begins with 'G'.",
+      "full_solution": "Greek Gift Sacrifice"
+    },
+    "explanation": "The classical Bishop sacrifice on h7 strips the king's defensive pawn cover and opens mating nets via Ng5 and Qh5.",
+    "estimated_seconds": 60
+  }
+]

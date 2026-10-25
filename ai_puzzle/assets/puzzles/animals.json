@@ -1,0 +1,97 @@
+[
+  {
+    "id": "anim_01",
+    "category": "animals",
+    "title": "King of the Savanna: African Lion",
+    "description": "Reassemble the real photo of the apex predator known for its majestic mane and pride leadership.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Reassemble the real photo of the apex predator known for its majestic mane and pride leadership.",
+      "target_name": "Lion",
+      "image_path": "assets/images/animals/lion.png"
+    },
+    "valid_answers": [
+      "lion",
+      "african lion"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the color patterns, fur texture, and anatomical features of the real photo.",
+      "guided": "This apex creature is known for Panthera and belongs to the genus Panthera.",
+      "strong": "The answer starts with 'L' and has 4 letters.",
+      "full_solution": "Lion"
+    },
+    "explanation": "Panthera leo is a social felid apex predator native to sub-Saharan Africa.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "anim_02",
+    "category": "animals",
+    "title": "Apex Predator: Bengal Tiger",
+    "description": "Reassemble the real photographic portrait of the largest striped felid in Asia.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Reassemble the real photographic portrait of the largest striped felid in Asia.",
+      "target_name": "Tiger",
+      "image_path": "assets/images/animals/tiger.png"
+    },
+    "valid_answers": [
+      "tiger",
+      "bengal tiger"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the color patterns, fur texture, and anatomical features of the real photo.",
+      "guided": "This apex creature is known for Panthera and belongs to the genus Panthera.",
+      "strong": "The answer starts with 'T' and has 5 letters.",
+      "full_solution": "Tiger"
+    },
+    "explanation": "Panthera tigris is an apex predator distinguished by dark vertical stripes on reddish-orange fur.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "anim_03",
+    "category": "animals",
+    "title": "Egg-Laying Marvel",
+    "description": "I am an Australian semi-aquatic mammal with a beaver-like tail and duck-like bill that lays eggs. Who am I?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "I am an Australian semi-aquatic mammal with a beaver-like tail and duck-like bill that lays eggs. Who am I?",
+      "target_name": "Platypus",
+      "image_path": "assets/images/animals/platypus.png"
+    },
+    "valid_answers": [
+      "platypus",
+      "duck-billed platypus"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the color patterns, fur texture, and anatomical features of the real photo.",
+      "guided": "This apex creature is known for Monotremes and belongs to the genus Panthera.",
+      "strong": "The answer starts with 'P' and has 8 letters.",
+      "full_solution": "Platypus"
+    },
+    "explanation": "Monotremes like the platypus lay eggs and have electrolocation in their bill.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "anim_04",
+    "category": "animals",
+    "title": "Master of Disguise",
+    "description": "I am a marine mollusk with three hearts, blue blood, and 8 flexible limbs. Who am I?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "I am a marine mollusk with three hearts, blue blood, and 8 flexible limbs. Who am I?",
+      "target_name": "Octopus",
+      "image_path": "assets/images/animals/octopus.png"
+    },
+    "valid_answers": [
+      "octopus"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the color patterns, fur texture, and anatomical features of the real photo.",
+      "guided": "This apex creature is known for Cephalopods and belongs to the genus Panthera.",
+      "strong": "The answer starts with 'O' and has 7 letters.",
+      "full_solution": "Octopus"
+    },
+    "explanation": "Cephalopods possess three hearts, copper-based hemocyanin blood, and 8 arms.",
+    "estimated_seconds": 45
+  }
+]

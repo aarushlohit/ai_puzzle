@@ -1,0 +1,90 @@
+[
+  {
+    "id": "crypt_01",
+    "category": "cryptography",
+    "title": "Caesar Shift +3",
+    "description": "Decode the message shifted by +3: 'KHOOR ZRUOG'",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Decode the message shifted by +3: 'KHOOR ZRUOG'",
+      "target_name": "HELLO WORLD"
+    },
+    "valid_answers": [
+      "hello world"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the substitution pattern or character shifts.",
+      "guided": "Invert or shift the characters according to the cipher rule.",
+      "strong": "The first word of the solution is 'HELLO'.",
+      "full_solution": "HELLO WORLD"
+    },
+    "explanation": "Caesar cipher with shift k=3: K->H, H->E, O->L, R->O.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "crypt_02",
+    "category": "cryptography",
+    "title": "Rot13 Enigma",
+    "description": "Decode ROT13 ciphertext: 'CHMMYRIREFR'",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Decode ROT13 ciphertext: 'CHMMYRIREFR'",
+      "target_name": "PUZZLEVERSE"
+    },
+    "valid_answers": [
+      "puzzleverse"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the substitution pattern or character shifts.",
+      "guided": "Invert or shift the characters according to the cipher rule.",
+      "strong": "The first word of the solution is 'PUZZLEVERSE'.",
+      "full_solution": "PUZZLEVERSE"
+    },
+    "explanation": "ROT13 rotates alphabetic characters by 13 positions (C->P, H->U).",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "crypt_03",
+    "category": "cryptography",
+    "title": "Reverse Mirror Cipher",
+    "description": "Decode the mirrored string: 'EVITCERETNI ELZZUP'",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "Decode the mirrored string: 'EVITCERETNI ELZZUP'",
+      "target_name": "INTERACTIVE PUZZLE"
+    },
+    "valid_answers": [
+      "interactive puzzle"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the substitution pattern or character shifts.",
+      "guided": "Invert or shift the characters according to the cipher rule.",
+      "strong": "The first word of the solution is 'INTERACTIVE'.",
+      "full_solution": "INTERACTIVE PUZZLE"
+    },
+    "explanation": "Reversing the entire string character-by-character reveals the secret message.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "crypt_04",
+    "category": "cryptography",
+    "title": "Atbash Ancient Code",
+    "description": "Decipher with Hebrew Atbash (A<->Z, B<->Y): 'TLTFOVKVIHV'",
+    "difficulty": "hard",
+    "puzzle_data": {
+      "question": "Decipher with Hebrew Atbash (A<->Z, B<->Y): 'TLTFOVKVIHV'",
+      "target_name": "PUZZLEVERSE"
+    },
+    "valid_answers": [
+      "puzzleverse"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the substitution pattern or character shifts.",
+      "guided": "Invert or shift the characters according to the cipher rule.",
+      "strong": "The first word of the solution is 'PUZZLEVERSE'.",
+      "full_solution": "PUZZLEVERSE"
+    },
+    "explanation": "Atbash maps the 1st letter to 26th, 2nd to 25th: T->P, L->U, G->T, F->U...",
+    "estimated_seconds": 60
+  }
+]

@@ -1,0 +1,100 @@
+[
+  {
+    "id": "bird_01",
+    "category": "birds",
+    "title": "Apex Aviator: Bald Eagle",
+    "description": "Reassemble the real photograph of North America's iconic sea eagle with a snowy white head and yellow beak.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Reassemble the real photograph of North America's iconic sea eagle with a snowy white head and yellow beak.",
+      "target_name": "Bald Eagle",
+      "image_path": "assets/images/birds/eagle.png"
+    },
+    "valid_answers": [
+      "eagle",
+      "bald eagle"
+    ],
+    "hint_ladder": {
+      "gentle": "Consider the aerodynamic or physical trait mentioned in the visual clue.",
+      "guided": "This avian species is notable for Haliaeetus.",
+      "strong": "The answer begins with 'B'.",
+      "full_solution": "Bald Eagle"
+    },
+    "explanation": "Haliaeetus leucocephalus is a sea eagle found in North America with powerful talons and a massive wingspan.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "bird_02",
+    "category": "birds",
+    "title": "Feathered Splendor: Indian Peacock",
+    "description": "Reassemble the real photograph of the resplendent bird famous for iridescent train feathers and eye-spots.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Reassemble the real photograph of the resplendent bird famous for iridescent train feathers and eye-spots.",
+      "target_name": "Peacock",
+      "image_path": "assets/images/birds/peacock.png"
+    },
+    "valid_answers": [
+      "peacock",
+      "indian peacock",
+      "peafowl"
+    ],
+    "hint_ladder": {
+      "gentle": "Consider the aerodynamic or physical trait mentioned in the visual clue.",
+      "guided": "This avian species is notable for Pavo.",
+      "strong": "The answer begins with 'P'.",
+      "full_solution": "Peacock"
+    },
+    "explanation": "Pavo cristatus possesses iridescent blue-green plumage and elongated upper-tail coverts bearing eye-spots.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "bird_03",
+    "category": "birds",
+    "title": "Speed Sovereign: Peregrine Falcon",
+    "description": "I am the fastest animal on Earth, reaching over 240 mph during hunting stoops. Who am I?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "I am the fastest animal on Earth, reaching over 240 mph during hunting stoops. Who am I?",
+      "target_name": "Peregrine Falcon",
+      "image_path": "assets/images/birds/falcon.png"
+    },
+    "valid_answers": [
+      "peregrine falcon",
+      "falcon"
+    ],
+    "hint_ladder": {
+      "gentle": "Consider the aerodynamic or physical trait mentioned in the visual clue.",
+      "guided": "This avian species is notable for The.",
+      "strong": "The answer begins with 'P'.",
+      "full_solution": "Peregrine Falcon"
+    },
+    "explanation": "The peregrine falcon achieves terminal dive velocity through aerodynamic tucks.",
+    "estimated_seconds": 45
+  },
+  {
+    "id": "bird_04",
+    "category": "birds",
+    "title": "Urban Tool User",
+    "description": "I am a corvid with intelligence matching a 7-year-old child, capable of remembering human faces and making hooks. Who am I?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "I am a corvid with intelligence matching a 7-year-old child, capable of remembering human faces and making hooks. Who am I?",
+      "target_name": "Crow",
+      "image_path": "assets/images/birds/crow.png"
+    },
+    "valid_answers": [
+      "crow",
+      "raven",
+      "new caledonian crow"
+    ],
+    "hint_ladder": {
+      "gentle": "Consider the aerodynamic or physical trait mentioned in the visual clue.",
+      "guided": "This avian species is notable for Corvids.",
+      "strong": "The answer begins with 'C'.",
+      "full_solution": "Crow"
+    },
+    "explanation": "Corvids demonstrate multi-step causal reasoning and episodic-like memory.",
+    "estimated_seconds": 45
+  }
+]

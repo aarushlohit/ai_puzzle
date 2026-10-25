@@ -1,0 +1,94 @@
+[
+  {
+    "id": "gk_01",
+    "category": "gk",
+    "title": "World Heritage: The Ivory White Mausoleum",
+    "description": "Reassemble the iconic marble mausoleum built on the Yamuna river in Agra.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Reassemble the iconic marble mausoleum built on the Yamuna river in Agra.",
+      "target_name": "Taj Mahal",
+      "image_path": "assets/images/gk/taj_mahal.png"
+    },
+    "valid_answers": [
+      "taj mahal"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the architectural landmarks and physical laws.",
+      "guided": "The answer relates to The.",
+      "strong": "The answer starts with 'T'.",
+      "full_solution": "Taj Mahal"
+    },
+    "explanation": "The Taj Mahal is an ivory-white marble mausoleum on the south bank of the Yamuna river.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "gk_02",
+    "category": "gk",
+    "title": "Cosmic Architecture: The Solar System",
+    "description": "Assemble the planetary system comprising the Sun and gravitationally bound orbiting bodies.",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Assemble the planetary system comprising the Sun and gravitationally bound orbiting bodies.",
+      "target_name": "Solar System",
+      "image_path": "assets/images/gk/solar_system.png"
+    },
+    "valid_answers": [
+      "solar system"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the architectural landmarks and physical laws.",
+      "guided": "The answer relates to The.",
+      "strong": "The answer starts with 'S'.",
+      "full_solution": "Solar System"
+    },
+    "explanation": "The Solar System formed 4.6 billion years ago from the gravitational collapse of a giant interstellar molecular cloud.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "gk_03",
+    "category": "gk",
+    "title": "Particle Physics Milestone",
+    "description": "Which subatomic boson was confirmed experimentally at CERN in 2012, responsible for imparting mass?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "Which subatomic boson was confirmed experimentally at CERN in 2012, responsible for imparting mass?",
+      "target_name": "Higgs Boson"
+    },
+    "valid_answers": [
+      "higgs boson",
+      "higgs"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the architectural landmarks and physical laws.",
+      "guided": "The answer relates to The.",
+      "strong": "The answer starts with 'H'.",
+      "full_solution": "Higgs Boson"
+    },
+    "explanation": "The Higgs boson confirms the Higgs mechanism which gives mass to fundamental particles.",
+    "estimated_seconds": 60
+  },
+  {
+    "id": "gk_04",
+    "category": "gk",
+    "title": "Orbital Equilibrium Points",
+    "description": "What term describes the specific equilibrium points in space where gravitational forces of two bodies balance centrifugal force?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "What term describes the specific equilibrium points in space where gravitational forces of two bodies balance centrifugal force?",
+      "target_name": "Lagrange Points"
+    },
+    "valid_answers": [
+      "lagrange points",
+      "lagrange"
+    ],
+    "hint_ladder": {
+      "gentle": "Observe the architectural landmarks and physical laws.",
+      "guided": "The answer relates to There.",
+      "strong": "The answer starts with 'L'.",
+      "full_solution": "Lagrange Points"
+    },
+    "explanation": "There are 5 Lagrange points (L1 to L5) where satellites like JWST maintain stationary relative positions.",
+    "estimated_seconds": 60
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "det_01",
+    "category": "detective",
+    "title": "The Midnight Rain",
+    "description": "Victim Lord Ashford was found murdered in his gazebo at 1 AM. Suspect John claimed he was strolling in the gazebo gardens without an umbrella. The meteorological log showed continuous torrential rain from 12 AM to 2 AM. When arrested at 1:15 AM, John's jacket and shoes were completely dry. Who is lying?",
+    "difficulty": "easy",
+    "puzzle_data": {
+      "question": "Victim Lord Ashford was found murdered in his gazebo at 1 AM. Suspect John claimed he was strolling in the gazebo gardens without an umbrella. The meteorological log showed continuous torrential rain from 12 AM to 2 AM. When arrested at 1:15 AM, John's jacket and shoes were completely dry. Who is lying?",
+      "target_name": "John"
+    },
+    "valid_answers": [
+      "john"
+    ],
+    "hint_ladder": {
+      "gentle": "Look for physical inconsistencies between physical evidence and suspect claims.",
+      "guided": "Inspect what was consumed or interacted with uniquely by the victim.",
+      "strong": "Focus on: 'John'.",
+      "full_solution": "John"
+    },
+    "explanation": "John claimed to be strolling in the garden during a 2-hour torrential rain without an umbrella, yet was found completely dry minutes later.",
+    "estimated_seconds": 90
+  },
+  {
+    "id": "det_02",
+    "category": "detective",
+    "title": "The Frozen Clock",
+    "description": "A collector was shot in his study. The grandfather clock was shattered by a stray bullet at 10:15 PM. Suspect Arthur has an alibi until 10:30 PM. However, forensics noted the pendulum was detached and held by a magnet placed inside before the bullet hit. What was falsified?",
+    "difficulty": "medium",
+    "puzzle_data": {
+      "question": "A collector was shot in his study. The grandfather clock was shattered by a stray bullet at 10:15 PM. Suspect Arthur has an alibi until 10:30 PM. However, forensics noted the pendulum was detached and held by a magnet placed inside before the bullet hit. What was falsified?",
+      "target_name": "Time of death"
+    },
+    "valid_answers": [
+      "time of death",
+      "the time",
+      "alibi",
+      "clock time"
+    ],
+    "hint_ladder": {
+      "gentle": "Look for physical inconsistencies between physical evidence and suspect claims.",
+      "guided": "Inspect what was consumed or interacted with uniquely by the victim.",
+      "strong": "Focus on: 'Time of death'.",
+      "full_solution": "Time of death"
+    },
+    "explanation": "The perpetrator staged the broken clock with a magnet prior to 10:15 PM to create a synthetic time-stamp and fabricate an alibi.",
+    "estimated_seconds": 90
+  },
+  {
+    "id": "det_03",
+    "category": "detective",
+    "title": "The Sealed Wine Vault",
+    "description": "Baron Vance was poisoned in a locked wine vault. The wine bottle was opened in front of both the Baron and his guest Roger. Both drank from the same bottle with two identical glasses poured by Roger. Roger remained unharmed while the Baron died of cyanide. What held the poison?",
+    "difficulty": "hard",
+    "puzzle_data": {
+      "question": "Baron Vance was poisoned in a locked wine vault. The wine bottle was opened in front of both the Baron and his guest Roger. Both drank from the same bottle with two identical glasses poured by Roger. Roger remained unharmed while the Baron died of cyanide. What held the poison?",
+      "target_name": "Ice cubes"
+    },
+    "valid_answers": [
+      "ice",
+      "the glass",
+      "ice cubes",
+      "his glass"
+    ],
+    "hint_ladder": {
+      "gentle": "Look for physical inconsistencies between physical evidence and suspect claims.",
+      "guided": "Inspect what was consumed or interacted with uniquely by the victim.",
+      "strong": "Focus on: 'Ice cubes'.",
+      "full_solution": "Ice cubes"
+    },
+    "explanation": "The poison was frozen inside the ice cubes in the Baron's glass. As the ice melted into the wine, the cyanide dissolved, leaving the unaffected guest unharmed.",
+    "estimated_seconds": 90
+  }
+]
